@@ -41,7 +41,6 @@ while True:
         elif op == "floor_divide":
             result = floor_divide(num1, num2)
 
-    # 🔥 Manejo de errores (cuando las funciones retornan string)
     if isinstance(result, str):
         print(result)
     else:
