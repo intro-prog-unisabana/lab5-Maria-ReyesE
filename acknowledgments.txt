@@ -4,26 +4,26 @@ Lab 5
 * Número aproximado de horas para completar esta tarea
 ******************************************************************************/
 Número de horas:
-
+5
 
 /******************************************************************************
 * ¿Encontraste algún problema serio? Si es así, por favor descríbelo.
 ******************************************************************************/
 
 ¿Sí o no?
-
+no
 
 /******************************************************************************
 * Escribe cualquier otro comentario aquí.
 ******************************************************************************/
 
-
+Practicar las funciones (cuando llamo una función a un file)
 
 /******************************************************************************
  *  Proporciona el enlace de tu perfil de GitHub (ej. https://github.com/afbeltranp)
  ******************************************************************************/
 
-[escribe el enlace aquí]
+https://github.com/intro-prog-unisabana/lab5-Maria-ReyesE.git
 
 /******************************************************************************
  *  Escribe y firma el siguiente reconocimiento estudiantil de trabajo original.
@@ -34,5 +34,6 @@ Número de horas:
  *      con las regulaciones de la Universidad.  /s/ Ada Lovelace
  ******************************************************************************/
 
-[escribe y firma la declaración aquí]
+Esta tarea de programación representa mi propio trabajo de acuerdo
+con las regulaciones de la Universidad.  /s/ María Reyes
 
