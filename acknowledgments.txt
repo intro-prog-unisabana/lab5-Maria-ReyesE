@@ -4,7 +4,7 @@ Lab 5
 * Número aproximado de horas para completar esta tarea
 ******************************************************************************/
 Número de horas:
-5
+6
 
 /******************************************************************************
 * ¿Encontraste algún problema serio? Si es así, por favor descríbelo.

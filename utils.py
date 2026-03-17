@@ -17,9 +17,7 @@ if __name__ == "__main__":
 # FREEZE CODE END
 
 
-# ----------------------
-# Parte I: Suma y Resta
-# ----------------------
+# Parte I
 def add(num1, num2):
     return num1 + num2
 
@@ -27,21 +25,17 @@ def sub(num1, num2):
     return num1 - num2
 
 
-# ----------------------
-# Parte II: Multiplicación y División
-# ----------------------
+# Parte II
 def multiply(num1, num2):
     return num1 * num2
 
 def divide(num1, num2):
     if num2 == 0:
         return "Error: Division by zero is not allowed."
-    return num1 / num2
+    return float(num1 / num2)   # 🔥 asegurar float
 
 
-# ----------------------
-# Parte III: Exponenciación y Módulo
-# ----------------------
+# Parte III
 def exponent(base, exp):
     return base ** exp
 
@@ -51,20 +45,18 @@ def modulo(num1, num2):
     return num1 % num2
 
 
-# ----------------------
-# Parte IV: División Entera y Valor Absoluto
-# ----------------------
+# Parte IV
 def floor_divide(num1, num2):
     if num2 == 0:
         return "Error: Division by zero is not allowed."
     
     result = num1 // num2
 
-    # Mantener tipo correcto
     if isinstance(num1, float) or isinstance(num2, float):
         return float(result)
 
     return result
+
 
 def absolute(num):
     return abs(num)
