@@ -17,12 +17,19 @@ if __name__ == "__main__":
 # FREEZE CODE END
 
 
+# ----------------------
+# Parte I: Suma y Resta
+# ----------------------
 def add(num1, num2):
     return num1 + num2
 
 def sub(num1, num2):
     return num1 - num2
 
+
+# ----------------------
+# Parte II: Multiplicación y División
+# ----------------------
 def multiply(num1, num2):
     return num1 * num2
 
@@ -31,6 +38,10 @@ def divide(num1, num2):
         return "Error: Division by zero is not allowed."
     return num1 / num2
 
+
+# ----------------------
+# Parte III: Exponenciación y Módulo
+# ----------------------
 def exponent(base, exp):
     return base ** exp
 
@@ -39,47 +50,21 @@ def modulo(num1, num2):
         return "Error: Modulo by zero is not allowed."
     return num1 % num2
 
-def floor_divide(num1, num2):
-    if num2 == 0:
-        return "Error: Division by zero is not allowed."
-    return num1 // num2
 
-def absolute(num):
-    return abs(num)
-
-#Parte 2
-def multiply(num1, num2):
-    return num1 * num2
-
-
-def divide(num1, num2):
-    if num2 == 0:
-        return "Error: Division by zero is not allowed."
-    return num1 / num2
-
-#Parte 3
-def exponent(base, exp):
-    return base ** exp
-
-
-def modulo(num1, num2):
-    if num2 == 0:
-        return "Error: Modulo by zero is not allowed."
-    return num1 % num2
-
-#Parte 4
+# ----------------------
+# Parte IV: División Entera y Valor Absoluto
+# ----------------------
 def floor_divide(num1, num2):
     if num2 == 0:
         return "Error: Division by zero is not allowed."
     
     result = num1 // num2
-    
-    # asegurar tipo correcto
+
+    # Mantener tipo correcto
     if isinstance(num1, float) or isinstance(num2, float):
         return float(result)
-    
-    return result
 
+    return result
 
 def absolute(num):
     return abs(num)
